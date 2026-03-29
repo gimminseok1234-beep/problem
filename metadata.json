@@ -1,0 +1,5 @@
+{
+  "name": "Remix: ExamGenius AI",
+  "description": "An intelligent exam generator that analyzes problem styles and creates custom tests from your study materials.",
+  "requestFramePermissions": []
+}

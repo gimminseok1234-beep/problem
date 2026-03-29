@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ExamGenius AI</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <style>
+      body {
+        font-family: 'Inter', 'Noto Sans KR', sans-serif;
+        background-color: #f3f4f6;
+      }
+      .exam-font {
+        font-family: 'Inter', 'Noto Sans KR', sans-serif; /* Changed to Gothic style */
+      }
+      /* Markdown Styles */
+      .markdown-body h1 { font-size: 2em; font-weight: bold; margin-bottom: 0.5em; margin-top: 1em; }
+      .markdown-body h2 { font-size: 1.5em; font-weight: bold; margin-bottom: 0.5em; margin-top: 1em; border-bottom: 1px solid #eaecef; padding-bottom: 0.3em; }
+      .markdown-body h3 { font-size: 1.25em; font-weight: bold; margin-bottom: 0.5em; margin-top: 1em; }
+      .markdown-body p { margin-bottom: 1em; line-height: 1.6; }
+      .markdown-body ul { list-style-type: disc; padding-left: 2em; margin-bottom: 1em; }
+      .markdown-body ol { list-style-type: decimal; padding-left: 2em; margin-bottom: 1em; }
+      .markdown-body table { width: 100%; border-collapse: collapse; margin-bottom: 1em; }
+      .markdown-body th, .markdown-body td { border: 1px solid #ddd; padding: 8px; }
+      .markdown-body th { background-color: #f6f8fa; font-weight: bold; }
+      .markdown-body strong { font-weight: 700; color: #1a202c; }
+      .dark .markdown-body strong { color: #e2e8f0; }
+      .dark .markdown-body h1, .dark .markdown-body h2, .dark .markdown-body h3 { color: #f3f4f6; }
+      .dark .markdown-body p, .dark .markdown-body li { color: #d1d5db; }
+      .dark .markdown-body th { background-color: #374151; border-color: #4b5563; }
+      .dark .markdown-body td { border-color: #4b5563; }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "lucide-react": "https://esm.sh/lucide-react@^0.563.0",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.4/",
+    "@google/genai": "https://esm.sh/@google/genai@^1.39.0",
+    "react/": "https://esm.sh/react@^19.2.4/",
+    "react": "https://esm.sh/react@^19.2.4",
+    "react-markdown": "https://esm.sh/react-markdown@9?bundle",
+    "firebase/app": "https://www.gstatic.com/firebasejs/10.8.0/firebase-app.js",
+    "firebase/auth": "https://www.gstatic.com/firebasejs/10.8.0/firebase-auth.js",
+    "firebase/firestore": "https://www.gstatic.com/firebasejs/10.8.0/firebase-firestore.js",
+    "firebase/analytics": "https://www.gstatic.com/firebasejs/10.8.0/firebase-analytics.js",
+    "firebase/": "https://esm.sh/firebase@^12.8.0/"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body>
+    <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
